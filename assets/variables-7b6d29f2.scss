@@ -1,0 +1,28 @@
+/* 全局变量 */
+
+$theme-color: #e0a100;
+$pointer: url('@/assets/img/pointer.cur'), pointer;
+$default: url('@/assets/img/default.cur'), default;
+
+%scrollbar-style {
+  &::-webkit-scrollbar {
+    // 滚动条整体部分
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    // 滚动条内部滑块
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+  }
+}
+
+/*-- 超出省略号n行--*/
+@mixin ellipsis($line) {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  work-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line; //指定行数
+}

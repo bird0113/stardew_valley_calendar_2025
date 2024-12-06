@@ -1,0 +1,12 @@
+/* 覆盖引入element-plus样式 */
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #e0a100
+    )
+  )
+);
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+@use 'element-plus/theme-chalk/dark/css-vars.css' as *;

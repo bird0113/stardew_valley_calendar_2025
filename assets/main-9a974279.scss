@@ -1,0 +1,27 @@
+/* 字体文件 */
+@import '../font/font.css';
+
+html {
+  min-width: 1200px;
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Pixel' !important;
+  user-select: none;
+  cursor: url('@/assets/img/default.cur'), auto !important;
+  --el-bg-color-overlay: rgba(29, 30, 31, 0.95);
+  --el-color-primary: #e0a100;
+}
+
+.is-pointer {
+  cursor: url('@/assets/img/pointer.cur'), pointer !important;
+}
+
+button,
+.button,
+.el-button {
+  cursor: $pointer !important;
+}

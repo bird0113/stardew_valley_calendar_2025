@@ -1,0 +1,15 @@
+/*
+ * @Author: mkq
+ * @Date: 2022-04-13 14:08:53
+ * @LastEditors: qyx 527303070@qq.com
+ * @LastEditTime: 2024-10-04 20:51:21
+ * @Description: 字体文件
+ * @FilePath: /stardew-valley-calendar/src/assets/font/font.css
+ */
+@font-face {
+  /*Pixel*/
+  font-family: 'Pixel';
+  src: url('./font-family/fusion-pixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
