@@ -26,3 +26,25 @@ button,
 .el-button {
   cursor: $pointer !important;
 }
+
+.el-notification {
+  padding: 8px;
+  border: 8px solid transparent;
+  border-image: url('@/assets/img/border.png') 15 stretch;
+  border-radius: 15px;
+  background-color: rgb(252, 202, 125);
+  box-sizing: border-box;
+  // box-shadow: none;
+
+  .el-notification__title {
+    color: #331f28;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .el-notification__content {
+    color: #331f28;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
