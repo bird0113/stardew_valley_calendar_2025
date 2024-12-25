@@ -48,3 +48,43 @@ button,
     letter-spacing: 1px;
   }
 }
+
+.color-picker-box {
+  margin: 10px !important;
+  border: 12px solid transparent !important;
+  border-image: url('@/assets/img/border.png') 15 stretch !important;
+  background: rgb(251, 193, 107) !important;
+  box-shadow: none !important;
+  border-radius: 15px !important;
+
+  .el-color-dropdown__btns {
+    .el-color-dropdown__value {
+      .el-input__inner {
+        color: #331f28 !important;
+      }
+    }
+
+    .el-button {
+      &:nth-child(2) {
+        display: none !important;
+        color: #331f28 !important;
+
+        &:hover {
+          background-color: rgba(51, 31, 40, 0.6) !important;
+          color: #fff !important;
+        }
+      }
+
+      &:nth-child(3) {
+        background-color: rgba(51, 31, 40, 0.8) !important;
+        color: #fff !important;
+
+        &:hover {
+          color: #fff !important;
+          border-color: #331f28 !important;
+          background-color: #331f28 !important;
+        }
+      }
+    }
+  }
+}
