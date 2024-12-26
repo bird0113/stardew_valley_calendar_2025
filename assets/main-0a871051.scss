@@ -1,0 +1,90 @@
+/* 字体文件 */
+@import '../font/font.css';
+
+html {
+  min-width: 1200px;
+  min-height: 100vh;
+  // background-color: rgb(252, 202, 125);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Pixel' !important;
+  user-select: none;
+  cursor: url('@/assets/img/default.cur'), auto !important;
+  --el-bg-color-overlay: rgba(29, 30, 31, 0.95);
+  --el-color-primary: #e0a100;
+}
+
+.is-pointer {
+  cursor: url('@/assets/img/pointer.cur'), pointer !important;
+}
+
+button,
+.button,
+.el-button {
+  cursor: $pointer !important;
+}
+
+.el-notification {
+  padding: 8px;
+  border: 8px solid transparent;
+  border-image: url('@/assets/img/border.png') 15 stretch;
+  border-radius: 15px;
+  background-color: rgb(252, 202, 125);
+  box-sizing: border-box;
+  // box-shadow: none;
+
+  .el-notification__title {
+    color: #331f28;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .el-notification__content {
+    color: #331f28;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+
+.color-picker-box {
+  margin: 10px !important;
+  border: 12px solid transparent !important;
+  border-image: url('@/assets/img/border.png') 15 stretch !important;
+  background: rgb(251, 193, 107) !important;
+  box-shadow: none !important;
+  border-radius: 15px !important;
+
+  .el-color-dropdown__btns {
+    .el-color-dropdown__value {
+      .el-input__inner {
+        color: #331f28 !important;
+      }
+    }
+
+    .el-button {
+      &:nth-child(2) {
+        display: none !important;
+        color: #331f28 !important;
+
+        &:hover {
+          background-color: rgba(51, 31, 40, 0.6) !important;
+          color: #fff !important;
+        }
+      }
+
+      &:nth-child(3) {
+        background-color: rgba(51, 31, 40, 0.8) !important;
+        color: #fff !important;
+
+        &:hover {
+          color: #fff !important;
+          border-color: #331f28 !important;
+          background-color: #331f28 !important;
+        }
+      }
+    }
+  }
+}
