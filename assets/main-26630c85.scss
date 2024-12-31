@@ -12,9 +12,12 @@ body {
   margin: 0;
   font-family: 'Pixel' !important;
   user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
   cursor: url('@/assets/img/default.cur'), auto !important;
   --el-bg-color-overlay: rgba(29, 30, 31, 0.95);
   --el-color-primary: #e0a100;
@@ -62,6 +65,9 @@ button,
 
   .el-color-dropdown__btns {
     .el-color-dropdown__value {
+      width: 220px;
+      line-height: 24px;
+
       .el-input__inner {
         color: #331f28 !important;
       }
@@ -89,5 +95,33 @@ button,
         }
       }
     }
+  }
+}
+
+// 悬浮窗
+.tooltip-box {
+  width: unset !important;
+  min-width: unset !important;
+  padding: 5px 10px !important;
+  border: 8px solid transparent !important;
+  border-image: url('@/assets/img/border.png') 15 stretch !important;
+  background: rgb(251, 193, 107) !important;
+  box-shadow: none !important;
+  border-radius: 15px !important;
+
+  .tooltip-content {
+    color: #331f28 !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+    word-break: keep-all !important;
+  }
+}
+
+.slider-tooltip {
+  padding: 2px 8px !important;
+  border-width: 5px !important;
+
+  ::before{
+    display: none !important;
   }
 }
