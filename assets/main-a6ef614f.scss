@@ -1,6 +1,12 @@
 /* 字体文件 */
 @import '../font/font.css';
 
+// 邻近插值渲染（像素风）
+img {
+  /* 最新的标准语法 */
+  image-rendering: pixelated !important;
+}
+
 // html {
 // min-width: 1300px;
 // min-height: 100vh;
@@ -121,7 +127,7 @@ button,
   padding: 2px 8px !important;
   border-width: 5px !important;
 
-  ::before{
+  ::before {
     display: none !important;
   }
 }
