@@ -1,9 +1,9 @@
 <!--
  * @Author: qyx 527303070@qq.com
  * @Date: 2025-01-02 20:04:23
- * @LastEditors: qyx 527303070@qq.com
- * @LastEditTime: 2025-01-02 23:27:01
- * @FilePath: /stardew-valley-calendar/README.md
+ * @LastEditors: qianyx
+ * @LastEditTime: 2025-02-07 16:28:12
+ * @FilePath: \stardew-valley-calendar\README.md
  * @Description: 更新日志
 -->
 ### 星露谷月历 v0.1.1
@@ -39,3 +39,7 @@
 
 ### 星露谷月历 v2.2
 - 增加图层复制功能
+  
+### 星露谷月历 v2.3
+- 优化素材列表渲染性能
+- 优化移动设备添加素材交互方式
