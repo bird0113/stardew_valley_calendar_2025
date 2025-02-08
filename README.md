@@ -2,7 +2,7 @@
  * @Author: qyx 527303070@qq.com
  * @Date: 2025-01-02 20:04:23
  * @LastEditors: qianyx
- * @LastEditTime: 2025-02-07 16:28:12
+ * @LastEditTime: 2025-02-08 15:52:12
  * @FilePath: \stardew-valley-calendar\README.md
  * @Description: 更新日志
 -->
@@ -43,3 +43,6 @@
 ### 星露谷月历 v2.3
 - 优化素材列表渲染性能
 - 优化移动设备添加素材交互方式
+
+### 星露谷月历 v2.4
+- 支持本地图片素材上传
