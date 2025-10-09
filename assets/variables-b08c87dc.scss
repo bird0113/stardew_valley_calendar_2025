@@ -22,7 +22,7 @@ $default: url('@/assets/img/default.cur'), default;
   display: -webkit-box !important;
   overflow: hidden;
   text-overflow: ellipsis;
-  work-break: break-all;
+  word-break: break-all;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: $line; //指定行数
 }
